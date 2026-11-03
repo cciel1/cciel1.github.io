@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "status": "development_snapshot_not_final_app",
+  "sourceSha256": "06a227b96775f07ac96457315f7e9111b19b68f39344e637b4cd7688aa039290",
+  "sources": [
+    {
+      "path": "parts/arena/fix_brain_types.js",
+      "sha256": "06a1e8842bef0698afa75e8855f99ed09c6ba93d171f6b5947c519e873d337b2"
+    },
+    {
+      "path": "parts/game/game_data.js",
+      "sha256": "f904ad5b4a88bd58863f4bb72e60cf9ddf293157ec1d1b2393bae6653611bd2e"
+    },
+    {
+      "path": "parts/game/game_assembly.js",
+      "sha256": "40f86f67fdfbfcae22936ecc1cf02b2659ecf9f72369972589d903c2fc79a4b4"
+    },
+    {
+      "path": "parts/game/game_store.js",
+      "sha256": "7cf2a1243b257e9227c89863a305770f2f2f4108c0a7a921e68576c914affaa2"
+    },
+    {
+      "path": "parts/game/game_text.js",
+      "sha256": "a43c59d9876fa5f44923a90cfad77161e869427acc18c14fb5998c5c7de8438e"
+    },
+    {
+      "path": "parts/game/game_tower_store.js",
+      "sha256": "620450c61a5606873d6daefa556c54b5616ca243a1dcac2d3727b217a9d92ccf"
+    },
+    {
+      "path": "parts/game/game_mastery.js",
+      "sha256": "ccb1a6346d4529d874a2adac8d0a299278669b95253636388977ad8b2f006fc2"
+    },
+    {
+      "path": "parts/game/game_odds.js",
+      "sha256": "ecedd4440d3b4b7b5dfeec47a0555df7457f95feb13188d3f83133e368c511f9"
+    }
+  ],
+  "boxes": {
+    "referenceDate": "2026-11-04",
+    "slots": [
+      {
+        "id": "frame",
+        "ko": "장갑 패널",
+        "en": "Armor panel"
+      },
+      {
+        "id": "legs",
+        "ko": "서보 모터",
+        "en": "Servo motor"
+      },
+      {
+        "id": "arms",
+        "ko": "냉각 코어",
+        "en": "Cooling core"
+      },
+      {
+        "id": "system",
+        "ko": "연산 카트리지",
+        "en": "Compute cartridge"
+      },
+      {
+        "id": "sensor",
+        "ko": "센서 모듈",
+        "en": "Sensor module"
+      },
+      {
+        "id": "power",
+        "ko": "전원 셀",
+        "en": "Power cell"
+      }
+    ],
+    "makers": [
+      {
+        "code": "KS",
+        "name": "KESTREL"
+      },
+      {
+        "code": "BW",
+        "name": "BASTION"
+      },
+      {
+        "code": "OC",
+        "name": "OMNI-CELL"
+      },
+      {
+        "code": "HV",
+        "name": "HIVE"
+      },
+      {
+        "code": "SL",
+        "name": "SKYLARK"
+      },
+      {
+        "code": "VM",
+        "name": "VECTOR"
+      },
+      {
+        "code": "FD",
+        "name": "FERAL"
+      },
+      {
+        "code": "PL",
+        "name": "PRISM"
+      },
+      {
+        "code": "TM",
+        "name": "TERRA"
+      },
+      {
+        "code": "HX",
+        "name": "HELIX"
+      }
+    ],
+    "makerChance": 0.1,
+    "percent": 10,
+    "partsPerBox": 6,
+    "random": [
+      1,
+      10
+    ],
+    "maker": [
+      1,
+      10
+    ]
+  },
+  "assembly": {
+    "referenceDate": "2026-11-04",
+    "iv": {
+      "min": 0,
+      "max": 10,
+      "count": 11,
+      "fields": [
+        {
+          "key": "hp",
+          "ko": "체력",
+          "en": "HP"
+        },
+        {
+          "key": "atk",
+          "ko": "공격",
+          "en": "Attack"
+        },
+        {
+          "key": "spd",
+          "ko": "속도",
+          "en": "Speed"
+        },
+        {
+          "key": "def",
+          "ko": "방어",
+          "en": "Defense"
+        }
+      ],
+      "denominator": 14641,
+      "total": [
+        {
+          "sum": 0,
+          "weight": 1
+        },
+        {
+          "sum": 1,
+          "weight": 4
+        },
+        {
+          "sum": 2,
+          "weight": 10
+        },
+        {
+          "sum": 3,
+          "weight": 20
+        },
+        {
+          "sum": 4,
+          "weight": 35
+        },
+        {
+          "sum": 5,
+          "weight": 56
+        },
+        {
+          "sum": 6,
+          "weight": 84
+        },
+        {
+          "sum": 7,
+          "weight": 120
+        },
+        {
+          "sum": 8,
+          "weight": 165
+        },
+        {
+          "sum": 9,
+          "weight": 220
+        },
+        {
+          "sum": 10,
+          "weight": 286
+        },
+        {
+          "sum": 11,
+          "weight": 360
+        },
+        {
+          "sum": 12,
+          "weight": 439
+        },
+        {
+          "sum": 13,
+          "weight": 520
+        },
+        {
+          "sum": 14,
+          "weight": 600
+        },
+        {
+          "sum": 15,
+          "weight": 676
+        },
+        {
+          "sum": 16,
+          "weight": 745
+        },
+        {
+          "sum": 17,
+          "weight": 804
+        },
+        {
+          "sum": 18,
+          "weight": 850
+        },
+        {
+          "sum": 19,
+          "weight": 880
+        },
+        {
+          "sum": 20,
+          "weight": 891
+        },
+        {
+          "sum": 21,
+          "weight": 880
+        },
+        {
+          "sum": 22,
+          "weight": 850
+        },
+        {
+          "sum": 23,
+          "weight": 804
+        },
+        {
+          "sum": 24,
+          "weight": 745
+        },
+        {
+          "sum": 25,
+          "weight": 676
+        },
+        {
+          "sum": 26,
+          "weight": 600
+        },
+        {
+          "sum": 27,
+          "weight": 520
+        },
+        {
+          "sum": 28,
+          "weight": 439
+        },
+        {
+          "sum": 29,
+          "weight": 360
+        },
+        {
+          "sum": 30,
+          "weight": 286
+        },
+        {
+          "sum": 31,
+          "weight": 220
+        },
+        {
+          "sum": 32,
+          "weight": 165
+        },
+        {
+          "sum": 33,
+          "weight": 120
+        },
+        {
+          "sum": 34,
+          "weight": 84
+        },
+        {
+          "sum": 35,
+          "weight": 56
+        },
+        {
+          "sum": 36,
+          "weight": 35
+        },
+        {
+          "sum": 37,
+          "weight": 20
+        },
+        {
+          "sum": 38,
+          "weight": 10
+        },
+        {
+          "sum": 39,
+          "weight": 4
+        },
+        {
+          "sum": 40,
+          "weight": 1
+        }
+      ]
+    },
+    "gold": {
+      "chance": 0.01
+    },
+    "brains": [
+      {
+        "ko": "돌격",
+        "en": "ASSAULT"
+      },
+      {
+        "ko": "신중",
+        "en": "CAUTIOUS"
+      },
+      {
+        "ko": "반격",
+        "en": "COUNTER"
+      },
+      {
+        "ko": "교란",
+        "en": "TRICKSTER"
+      },
+      {
+        "ko": "연계",
+        "en": "LINK"
+      },
+      {
+        "ko": "도박",
+        "en": "GAMBLER"
+      }
+    ],
+    "ad": {
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "distinctSlots": true
+    },
+    "disassembly": {
+      "count": 2,
+      "partKinds": 60
+    }
+  }
+}
