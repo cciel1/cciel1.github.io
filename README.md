@@ -5,6 +5,7 @@ Static, bilingual studio and game information website. Studio information and su
 - Korean: `index.html`
 - English: `en.html`
 - Website privacy: `privacy.html` and `privacy-en.html`
+- Purchase/refund support: `payments.html` and `payments-en.html`
 - Account deletion: `delete-account.html` and `delete-account-en.html`
 - AdMob authorized sellers: `/app-ads.txt`
 
