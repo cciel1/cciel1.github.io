@@ -89,3 +89,6 @@ details[open]>summary:after{content:"−"}
 }
 @media(max-width:360px){.wordmark{font-size:25px}.wordmark span{font-size:11px}.site-header{gap:10px}.language{gap:10px;font-size:10px}.game-sleeve{padding-inline:18px}.game-sleeve h1{font-size:21vw}.contact-email{font-size:19px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Extra support notices can wrap at intermediate widths. */
+.site-footer{flex-wrap:wrap}
