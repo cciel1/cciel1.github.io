@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "development_snapshot_not_final_app",
-  "sourceSha256": "2ce33ccb20f4a7963beb59025a046dab0657803a086861cb31ea982826c72037",
+  "sourceSha256": "06a227b96775f07ac96457315f7e9111b19b68f39344e637b4cd7688aa039290",
   "sources": [
     {
       "path": "parts/arena/fix_brain_types.js",
@@ -13,7 +13,7 @@
     },
     {
       "path": "parts/game/game_assembly.js",
-      "sha256": "db3beb7de33eaa6752b40173aa54835b71914d6057256c261344a6b40d2f2527"
+      "sha256": "40f86f67fdfbfcae22936ecc1cf02b2659ecf9f72369972589d903c2fc79a4b4"
     },
     {
       "path": "parts/game/game_store.js",
@@ -25,7 +25,7 @@
     },
     {
       "path": "parts/game/game_tower_store.js",
-      "sha256": "23dadb962db7f9bfa2652ee2c807984e2125b3855dae4bf7d0426e2be5836ff2"
+      "sha256": "620450c61a5606873d6daefa556c54b5616ca243a1dcac2d3727b217a9d92ccf"
     },
     {
       "path": "parts/game/game_mastery.js",
@@ -147,9 +147,9 @@
           "en": "Speed"
         },
         {
-          "key": "cd",
-          "ko": "스킬 가속",
-          "en": "Skill haste"
+          "key": "def",
+          "ko": "방어",
+          "en": "Defense"
         }
       ],
       "denominator": 14641,
