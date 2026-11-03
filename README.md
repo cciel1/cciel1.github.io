@@ -1,10 +1,11 @@
 # RAMIBLE Studio
 
-Static, bilingual studio and game information website. Local design preview; publication requires owner approval.
+Static, bilingual studio and game information website. Studio information and support website, prepared for publication on GitHub Pages.
 
 - Korean: `index.html`
 - English: `en.html`
 - Website privacy: `privacy.html` and `privacy-en.html`
+- Account deletion: `delete-account.html` and `delete-account-en.html`
 - AdMob authorized sellers: `/app-ads.txt`
 
 Plain HTML/CSS, native accessible disclosures, no JavaScript or build step. No third-party widgets, game runtime, account system, analytics or embedded payment processing. Images and fonts are hosted locally.
@@ -25,4 +26,4 @@ The locally hosted Archivo and IBM Plex Sans KR fonts were copied from the game'
 
 ## Publication
 
-Intended for GitHub Pages. No public repository or approved download link is represented by this preview. Keep `app-ads.txt` at the website domain root. The website privacy notice covers this information website; it is separate from the game's own data and consent policy.
+Public website: https://cciel1.github.io/ . Publication authorized by the owner on November 3, 2026. There is no approved game-download link yet. Keep `app-ads.txt` at the website domain root. The website privacy notice covers this information website; it is separate from the game's own data and consent policy. The deletion resource documents the existing server behavior; it does not authorize deleting any account or claim commercial compliance approval.

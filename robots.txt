@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cciel1.github.io/sitemap.xml
